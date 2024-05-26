@@ -13,3 +13,118 @@ html {
 body {
   height: 100%;
 }
+
+#root {
+  min-height: 100%;
+  display: flex;
+}
+
+.App {
+  flex: 1 1 auto;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.content > div {
+  flex: 1;
+}
+
+.left-content > div {
+  background-image: url("../../public/images/zvada.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.right-content {
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap-form {
+  width: 390px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 77px 55px 33px;
+}
+
+.form {
+  width: 100%;
+}
+
+.title {
+  display: block;
+  font-size: 30px;
+  color: #333;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.wrap-input {
+  width: 100%;
+  border-bottom: 2px solid #adadad;
+  margin-bottom: 37px;
+}
+
+.wrap-input > input {
+  font-size: 15px;
+  color: #555;
+  display: block;
+  width: 100%;
+  height: 45px;
+  background: 0 0;
+  padding: 0 5px;
+  outline: none;
+  border: none;
+}
+
+.container-btn {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-top: 13px;
+}
+
+.wrap-btn {
+  width: 100%;
+  display: block;
+  border-radius: 25px;
+  margin: 0 auto;
+  background-color: #c1c1c1;
+}
+
+.wrap-btn:hover {
+  background-color: #cdcdcd;
+}
+
+.wrap-btn:active {
+  background-color: #9f9797;
+}
+
+.btn {
+  font-size: 15px;
+  color: #333;
+  line-height: 1.2;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  cursor: pointer;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: 0 0;
+}
