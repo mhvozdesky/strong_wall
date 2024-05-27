@@ -144,3 +144,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # Redis settings
 REDIS_HOST = os.environ.get('REDIS_HOST')
 REDIS_PORT = os.environ.get('REDIS_PORT')
+
+RECAPTCHA_SECRET_KEY = os.environ.get('RECAPTCHA_SECRET_KEY')

@@ -25,7 +25,7 @@ class GreetingView(APIView):
         If the name does not exist, it adds the name and returns a success message.
         If the name exists, it returns a message indicating that the name already exists.
         """
-        
+
         serializer = GreetingSerializer(data=request.data)
         if serializer.is_valid():
             name = serializer.validated_data['name']
