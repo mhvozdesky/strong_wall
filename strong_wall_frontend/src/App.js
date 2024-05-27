@@ -1,13 +1,13 @@
 import './styles/App.css';
 import LeftContent from './components/LeftContent'
-import RigntContent from './components/RigntContent'
+import RightContent from './components/RightContent'
 
 function App() {
   return (
     <div className="App">
       <div className='content'>
         <LeftContent />
-        <RigntContent />
+        <RightContent />
       </div>
     </div>
   );
